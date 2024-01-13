@@ -1,6 +1,9 @@
 # MSMLProject1
 # 🚜 Predicting the Sale Price of Bulldozers using Machine Learning 
 
+#IMPORTANT
+Open the zipped file for data (saved and loaded, as git lfs had issues with the PATH directory).Keep reading!
+
 In this notebook, we're going to go through an example machine learning project with the goal of predicting the sale price of bulldozers.
 
 Since we're trying to predict a number, this kind of problem is known as a **regression problem**.
