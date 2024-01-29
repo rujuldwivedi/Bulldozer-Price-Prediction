@@ -1,29 +1,70 @@
-# MSMLProject1
-# 🚜 Predicting the Sale Price of Bulldozers using Machine Learning 
+# Bulldozer Price Prediction (🚜)
 
-#IMPORTANT
-Open the zipped file for data (saved and loaded, as git lfs had issues with the PATH directory).Keep reading!
+Welcome to MSMLProject1 - a machine learning project dedicated to predicting the sale price of bulldozers. In this notebook, we'll navigate through a regression problem, aiming to forecast the sale prices of bulldozers using data from the [Kaggle Bluebook for Bulldozers competition](https://www.kaggle.com/c/bluebook-for-bulldozers/overview). The evaluation metric for this project is the Root Mean Square Log Error (RMSLE).
 
-In this notebook, we're going to go through an example machine learning project with the goal of predicting the sale price of bulldozers.
+## Dataset and Source
 
-Since we're trying to predict a number, this kind of problem is known as a **regression problem**.
+The dataset for this project can be found in the zipped file under the `data` directory (Note: Git LFS had issues with the PATH directory). Make sure to extract the data before proceeding.
 
-The data and evaluation metric we'll be using (root mean square log error or RMSLE) is from the [Kaggle Bluebook for Bulldozers competition](https://www.kaggle.com/c/bluebook-for-bulldozers/overview).
+### Kaggle Bluebook for Bulldozers Competition
+- [Competition Overview](https://www.kaggle.com/c/bluebook-for-bulldozers/overview)
+- [Kaggle Dataset](https://www.kaggle.com/c/bluebook-for-bulldozers/data)
 
-The techniques used in here have been inspired and adapted from [the fast.ai machine learning course](https://course18.fast.ai/ml).
+## Problem Definition
 
-## What we'll end up with
+We approach this project as a regression problem, seeking to predict the sale prices of bulldozers. The inspiration and methodologies are drawn from the [fast.ai machine learning course](https://course18.fast.ai/ml).
 
-Since we already have a dataset, we'll approach the problem with the following machine learning modelling framework.
+## Machine Learning Modelling Framework
 
-| <img src="../images/ml101-6-step-ml-framework.png" width=500/> | 
+We'll follow a structured machine learning modelling framework with the goal of building a trained model capable of predicting bulldozer prices.
 |:--:| 
 | 6 Step Machine Learning Modelling Framework ([read more](https://whimsical.com/9g65jgoRYTxMXxDosndYTB)) |
 
-To work through these topics, we'll use pandas, Matplotlib and NumPy for data anaylsis, as well as, Scikit-Learn for machine learning and modelling tasks.
+### Tools Used in the Modelling Process
 
-| <img src="../images/supervised-projects-6-step-ml-framework-tools-highlight.png" width=500/> | 
+We'll utilize various tools for each step of the machine learning modelling process, including pandas, Matplotlib, NumPy for data analysis, and Scikit-Learn for machine learning and modelling tasks.
 |:--:| 
 | Tools which can be used for each step of the machine learning modelling process. |
 
-We'll work through each step and by the end of the notebook, we'll have a trained machine learning model which predicts the sale price of a bulldozer given different characteristics about it.
+## Workflow Overview
+
+### 1. Data Collection and Loading
+
+The dataset is loaded from the provided zipped file, allowing us to explore and understand the features related to bulldozer prices.
+
+### 2. Data Exploration and Analysis
+
+We perform an in-depth analysis of the dataset, visualizing key characteristics and gaining insights into the factors influencing bulldozer prices.
+
+### 3. Data Preprocessing
+
+Prior to model training, we preprocess the data, handling missing values, encoding categorical variables, and scaling numerical features for optimal model performance.
+
+### 4. Model Selection and Training
+
+We experiment with different regression models, evaluating their performance on the training data and selecting the most promising candidate.
+
+### 5. Model Evaluation
+
+The chosen model is evaluated using the RMSLE metric on a separate test dataset to assess its accuracy and generalization to new data.
+
+### 6. Prediction
+
+With a trained model in place, we can now predict the sale prices of bulldozers based on given characteristics.
+
+## Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/rujuldwivedi/MSMLProject1.git`
+2. Extract the dataset from the zipped file in the `data` directory.
+3. Install the required dependencies: `pip install -r data.txt`
+4. Run the Jupyter notebook: `jupyter notebook Bulldozer-Price-Regression.ipynb`
+
+## Contributions
+
+Contributions are welcome! Feel free to open issues, submit pull requests, or suggest improvements. Let's collaborate to enhance the accuracy and robustness of our bulldozer price prediction model.
+
+## Acknowledgments
+
+Special thanks to Kaggle for providing the dataset and the fast.ai community for valuable insights and methodologies.
