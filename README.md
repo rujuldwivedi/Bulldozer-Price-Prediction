@@ -2,10 +2,6 @@
 
 Welcome to Bulldozer Price Prediction - a machine learning project dedicated to predicting the sale price of bulldozers. In this notebook, we'll navigate through a regression problem, aiming to forecast the sale prices of bulldozers using data from the [Kaggle Bluebook for Bulldozers competition](https://www.kaggle.com/c/bluebook-for-bulldozers/overview). The evaluation metric for this project is the Root Mean Square Log Error (RMSLE).
 
-## Dataset and Source
-
-The dataset for this project can be found in the zipped file under the `data` directory (Note: Git LFS had issues with the PATH directory). Make sure to extract the data before proceeding.
-
 ### Kaggle Bluebook for Bulldozers Competition
 - [Competition Overview](https://www.kaggle.com/c/bluebook-for-bulldozers/overview)
 - [Kaggle Dataset](https://www.kaggle.com/c/bluebook-for-bulldozers/data)
