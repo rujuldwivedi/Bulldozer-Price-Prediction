@@ -53,7 +53,7 @@ With a trained model in place, we can now predict the sale prices of bulldozers 
 To run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/rujuldwivedi/Bulldozer-Price-Prediction.git`
-2. Install the required dependencies.
+2. Install the required datasets and dependencies.
 3. Run the Jupyter notebook: `jupyter notebook Bulldozer-Price-Regression.ipynb`
 
 ## Contributions
