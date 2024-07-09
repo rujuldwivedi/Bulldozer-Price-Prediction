@@ -1,6 +1,6 @@
 # Bulldozer Price Prediction (🚜)
 
-Welcome to MSMLProject1 - a machine learning project dedicated to predicting the sale price of bulldozers. In this notebook, we'll navigate through a regression problem, aiming to forecast the sale prices of bulldozers using data from the [Kaggle Bluebook for Bulldozers competition](https://www.kaggle.com/c/bluebook-for-bulldozers/overview). The evaluation metric for this project is the Root Mean Square Log Error (RMSLE).
+Welcome to Bulldozer Price Prediction - a machine learning project dedicated to predicting the sale price of bulldozers. In this notebook, we'll navigate through a regression problem, aiming to forecast the sale prices of bulldozers using data from the [Kaggle Bluebook for Bulldozers competition](https://www.kaggle.com/c/bluebook-for-bulldozers/overview). The evaluation metric for this project is the Root Mean Square Log Error (RMSLE).
 
 ## Dataset and Source
 
@@ -56,10 +56,9 @@ With a trained model in place, we can now predict the sale prices of bulldozers 
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/rujuldwivedi/MSMLProject1.git`
-2. Extract the dataset from the zipped file in the `data` directory.
-3. Install the required dependencies: `pip install -r data.txt`
-4. Run the Jupyter notebook: `jupyter notebook Bulldozer-Price-Regression.ipynb`
+1. Clone the repository: `git clone https://github.com/rujuldwivedi/Bulldozer-Price-Prediction.git`
+2. Install the required dependencies.
+3. Run the Jupyter notebook: `jupyter notebook Bulldozer-Price-Regression.ipynb`
 
 ## Contributions
 
